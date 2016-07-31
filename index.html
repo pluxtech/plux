@@ -346,12 +346,12 @@
 		<div class="blockheadComparisonImageAspectMatch"></div>
 		<div class="blockheadComparisonChart">
 			<div class="blockheadComparisonChartLabels">
-				<div class="blockheadComparisonChartLabel1">Plux</div>
-				<div class="blockheadComparisonChartLabel2">1.2”</div>
-				<div class="blockheadComparisonChartLabel3">Supplied power cord</div>
-				<div class="blockheadComparisonChartLabel4">2.6”</div>
-				<div class="blockheadComparisonChartLabel5">Standard 60w power adapter plug</div>
-				<div class="blockheadComparisonChartLabel6">3.8”</div>
+				<div class="blockheadComparisonChartLabel1" style="color:#50A5F3">Plux</div>
+				<div class="blockheadComparisonChartLabel2">0 injuries</div>
+				<div class="blockheadComparisonChartLabel3">European Plug</div>
+				<div class="blockheadComparisonChartLabel4">120,000 injuries</div>
+				<div class="blockheadComparisonChartLabel5">North American Plug</div>
+				<div class="blockheadComparisonChartLabel6">300,000 injuries</div>
 			</div>
 		</div>
 	</div>
@@ -413,8 +413,8 @@ $(window).on("load",function() {
 	// 
 	var chartContainer = $(".blockheadComparisonChart")[0];
 	actionForElementCenterEnterViewport(chartContainer,function() {
-		var bar1Width = 150;
-		var bar2Width = 150 * 2.6 / 1.2;
+		var bar1Width = 0;
+		var bar2Width = 150 * 1.6 / 1.2;
 		var bar3Width = 150 * 3.8 / 1.2;
 		animateLineInContainerWidthFromPointToPointWidthLinecapColorDurationDelayEasing(chartContainer,650,1,330,1,0,2,"square","rgba(210,210,210,1.0)",800,0,"ease-in-out");
 		animateLineInContainerWidthFromPointToPointWidthLinecapColorDurationDelayEasing(chartContainer,650,1,330,501,330,2,"square","rgba(210,210,210,1.0)",800,0,"ease-in-out");
